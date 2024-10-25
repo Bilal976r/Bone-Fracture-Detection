@@ -1,8 +1,5 @@
 # Bone-Fracture-Detection
 Bone Fracture Detection using deep learning. This project employs Convolutional Neural Networks (CNNs) to classify fractures in the elbow, hand, and shoulder. Trained on the MURA dataset, it aims to automate fracture detection with high accuracy, leveraging musculoskeletal radiograph data.
-# Bone Fracture Detection
-
-This project automates the detection and classification of bone fractures using deep learning techniques. It leverages Convolutional Neural Networks (CNNs) trained on the MURA dataset to detect fractures in different bone types, such as elbow, hand, and shoulder.
 
 ## Table of Contents
 - [Features](#features)
