@@ -25,7 +25,7 @@ Bone Fracture Detection using deep learning. This project employs Convolutional 
 ## Installation
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/bone-fracture-detection.git
+    git clone https://github.com/Bilal976r/bone-fracture-detection.git
     cd bone-fracture-detection
     ```
 2. **Install dependencies**:
@@ -38,12 +38,16 @@ Bone Fracture Detection using deep learning. This project employs Convolutional 
 1. **Prepare the dataset**: Place the MURA dataset in the appropriate directory as specified in the code.
 2. **Train the model**: Run the training script to start training the model:
     ```bash
-    python train.py
+    python training_parts.py
+    python training_fracture
     ```
 3. **Evaluate the model**: Use the evaluation script to assess the model's accuracy:
     ```bash
-    python evaluate.py
+    python prediction_test.py
+    python predictions.py
     ```
+4. **Main File**: Use this to start the application.
+   python mainGUI.py
 
 ## Dataset
 The project uses the MURA dataset, a large collection of musculoskeletal radiographs. You need to download it separately from [Stanford ML Group's website](https://stanfordmlgroup.github.io/competitions/mura/).
